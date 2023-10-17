@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-18T03:11:23 IST" name="Default suite" finished-at="2023-10-18T03:11:33 IST" duration-ms="9677">
+  <suite started-at="2023-10-18T03:15:06 IST" name="Default suite" finished-at="2023-10-18T03:15:17 IST" duration-ms="10926">
     <groups>
     </groups>
-    <test started-at="2023-10-18T03:11:23 IST" name="Default test" finished-at="2023-10-18T03:11:33 IST" duration-ms="9677">
+    <test started-at="2023-10-18T03:15:06 IST" name="Default test" finished-at="2023-10-18T03:15:17 IST" duration-ms="10926">
       <class name="org.sasiguides.tesng.implementations.PerformDifferentOperations">
-        <test-method signature="performAddProduct()[pri:0, instance:org.sasiguides.tesng.implementations.PerformDifferentOperations@799f10e1]" started-at="2023-10-18T03:11:23 IST" name="performAddProduct" finished-at="2023-10-18T03:11:31 IST" duration-ms="7203" status="PASS">
+        <test-method signature="performAddProduct()[pri:0, instance:org.sasiguides.tesng.implementations.PerformDifferentOperations@689604d9]" started-at="2023-10-18T03:15:06 IST" name="performAddProduct" finished-at="2023-10-18T03:15:14 IST" duration-ms="8197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performAddProduct -->
-        <test-method signature="performCreateOrderOperation()[pri:0, instance:org.sasiguides.tesng.implementations.PerformDifferentOperations@799f10e1]" started-at="2023-10-18T03:11:31 IST" name="performCreateOrderOperation" finished-at="2023-10-18T03:11:32 IST" duration-ms="1243" status="PASS">
+        <test-method signature="performCreateOrderOperation()[pri:0, instance:org.sasiguides.tesng.implementations.PerformDifferentOperations@689604d9]" started-at="2023-10-18T03:15:14 IST" name="performCreateOrderOperation" finished-at="2023-10-18T03:15:16 IST" duration-ms="1366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performCreateOrderOperation -->
-        <test-method signature="performDeleteProduct()[pri:0, instance:org.sasiguides.tesng.implementations.PerformDifferentOperations@799f10e1]" started-at="2023-10-18T03:11:32 IST" name="performDeleteProduct" finished-at="2023-10-18T03:11:33 IST" duration-ms="900" status="PASS">
+        <test-method signature="performDeleteProduct()[pri:0, instance:org.sasiguides.tesng.implementations.PerformDifferentOperations@689604d9]" started-at="2023-10-18T03:15:16 IST" name="performDeleteProduct" finished-at="2023-10-18T03:15:17 IST" duration-ms="975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performDeleteProduct -->
-        <test-method signature="performLoginOperation()[pri:0, instance:org.sasiguides.tesng.implementations.PerformDifferentOperations@799f10e1]" started-at="2023-10-18T03:11:33 IST" name="performLoginOperation" finished-at="2023-10-18T03:11:33 IST" duration-ms="268" status="PASS">
+        <test-method signature="performLoginOperation()[pri:0, instance:org.sasiguides.tesng.implementations.PerformDifferentOperations@689604d9]" started-at="2023-10-18T03:15:17 IST" name="performLoginOperation" finished-at="2023-10-18T03:15:17 IST" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performLoginOperation -->
