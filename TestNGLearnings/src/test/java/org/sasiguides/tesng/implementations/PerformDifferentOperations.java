@@ -20,11 +20,10 @@ public class PerformDifferentOperations {
 	@Test
 	public void performLoginOperation() throws Exception {
 		RequestSpecification loginRequestSpec = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").
-				setContentType(ContentType.JSON).setBody("    {\r\n"
-						+ "    \"userEmail\": \"sasikiran2213@gmail.com\",\r\n"
-						+ "    \"userPassword\": \"Sasikiran@2213\"\r\n"
-						+ "}\r\n"
-						+ "").build();
+				setContentType(ContentType.JSON).setBody("{\r\n"
+						+ "    \"userEmail\": \"admin123@gmail.com\",\r\n"
+						+ "    \"userPassword\": \"Admin@123\"\r\n"
+						+ "}").build();
 		ResponseSpecification responseSepec = new ResponseSpecBuilder().expectContentType(ContentType.JSON).expectStatusCode(200).build();
 		
 		given().log().all().spec(loginRequestSpec).when().post("api/ecom/auth/login").then().spec(responseSepec).log().all().extract().asString();
@@ -33,11 +32,10 @@ public class PerformDifferentOperations {
 	@Test
 	public void performAddProduct() throws Exception {
 		RequestSpecification loginRequestSpec = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").
-				setContentType(ContentType.JSON).setBody("    {\r\n"
-						+ "    \"userEmail\": \"sasikiran2213@gmail.com\",\r\n"
-						+ "    \"userPassword\": \"Sasikiran@2213\"\r\n"
-						+ "}\r\n"
-						+ "").build();
+				setContentType(ContentType.JSON).setBody("{\r\n"
+						+ "    \"userEmail\": \"admin123@gmail.com\",\r\n"
+						+ "    \"userPassword\": \"Admin@123\"\r\n"
+						+ "}").build();
 		ResponseSpecification responseSepec = new ResponseSpecBuilder().expectContentType(ContentType.JSON).expectStatusCode(200).build();
 		
 	String	extractDetails=given().log().all().spec(loginRequestSpec).when().post("api/ecom/auth/login").then().spec(responseSepec).log().all().extract().asString();
@@ -62,8 +60,10 @@ public class PerformDifferentOperations {
 				.build();
 
 		String extractDetails = given().spec(req)
-				.body("    {\r\n" + "    \"userEmail\": \"sasikiran2213@gmail.com\",\r\n"
-						+ "    \"userPassword\": \"Sasikiran@2213\"\r\n" + "}")
+				.body("{\r\n"
+						+ "    \"userEmail\": \"admin123@gmail.com\",\r\n"
+						+ "    \"userPassword\": \"Admin@123\"\r\n"
+						+ "}")
 				.when().post("api/ecom/auth/login").then().spec(resp).extract().asString();
 
 		JsonPath json = new JsonPath(extractDetails);
@@ -111,8 +111,10 @@ public class PerformDifferentOperations {
 				.build();
 
 		String extractDetails = given().spec(req)
-				.body("    {\r\n" + "    \"userEmail\": \"sasikiran2213@gmail.com\",\r\n"
-						+ "    \"userPassword\": \"Sasikiran@2213\"\r\n" + "}")
+				.body("{\r\n"
+						+ "    \"userEmail\": \"admin123@gmail.com\",\r\n"
+						+ "    \"userPassword\": \"Admin@123\"\r\n"
+						+ "}")
 				.when().post("api/ecom/auth/login").then().spec(resp).extract().asString();
 
 		JsonPath json = new JsonPath(extractDetails);
